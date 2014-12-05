@@ -57,6 +57,11 @@ $ docker run --rm \
 ```
 
 
+## Contributing
+
+Please see the [contributing guidelines](/CONTRIBUTING.md).
+
+
 [docker]: https://www.docker.com
 [git]: http://git-scm.com
 [jenkins]: http://jenkins-ci.org

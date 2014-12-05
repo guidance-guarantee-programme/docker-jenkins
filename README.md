@@ -44,6 +44,19 @@ $ docker run --detach \
 Jenkins will now be available on port `8080` of your Docker host.
 
 
+## Backing up the server configuration
+
+The following command creates a tarball of the server configuration in the current directory.
+
+```sh
+$ docker run --rm \
+             --volumes-from jenkins_home \
+             --volume $(pwd):/tmp/backup \
+             hmtreasury/base \
+             tar -cvf /tmp/backup/jenkins_home.tar /var/lib/jenkins
+```
+
+
 [docker]: https://www.docker.com
 [git]: http://git-scm.com
 [jenkins]: http://jenkins-ci.org

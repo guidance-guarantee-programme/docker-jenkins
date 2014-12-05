@@ -1,6 +1,6 @@
 # Docker - Jenkins
 
-Provides a [Jenkins] server configured with the following plugins:
+Provides a [Jenkins] LTS server configured with the following plugins:
 
 * [Doony](http://doony.org)
 * [Green Balls](https://wiki.jenkins-ci.org/display/JENKINS/Green+Balls)

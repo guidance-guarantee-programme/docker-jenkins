@@ -3,8 +3,8 @@ MAINTAINER HM Treasury Guidance Guarantee Programme <pensions-guidance-members@d
 
 RUN apt-get update -q && \
     apt-get install -qy wget git openjdk-7-jre-headless --no-install-recommends && \
-    echo "deb http://pkg.jenkins-ci.org/debian binary/" > /etc/apt/sources.list.d/jenkins.list && \
-    wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add - && \
+    echo "deb http://pkg.jenkins-ci.org/debian-stable binary/" > /etc/apt/sources.list.d/jenkins.list && \
+    wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add - && \
     apt-get update -q && \
     apt-get install -qy jenkins && \
 

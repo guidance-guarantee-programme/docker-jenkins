@@ -21,6 +21,8 @@ ADD http://updates.jenkins-ci.org/latest/simple-theme-plugin.hpi /usr/share/jenk
 ADD https://cdnjs.cloudflare.com/ajax/libs/doony/1.6/css/doony.min.css /usr/share/jenkins/ref/userContent/
 ADD https://cdnjs.cloudflare.com/ajax/libs/doony/1.6/js/doony.min.js /usr/share/jenkins/ref/userContent/
 
+ADD org.codefirst.SimpleThemeDecorator.xml /usr/share/jenkins/ref/
+
 EXPOSE 8080
 
 COPY jenkins.sh /usr/local/bin/jenkins.sh

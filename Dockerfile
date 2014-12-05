@@ -14,9 +14,20 @@ RUN apt-get update -q && \
 VOLUME /var/lib/jenkins
 ENV JENKINS_HOME /var/lib/jenkins
 
+ADD http://updates.jenkins-ci.org/latest/credentials.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/git-client.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/git.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/github-api.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/github.hpi /usr/share/jenkins/ref/plugins/
 ADD http://updates.jenkins-ci.org/latest/greenballs.hpi /usr/share/jenkins/ref/plugins/
 ADD http://updates.jenkins-ci.org/latest/jquery.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/mailer.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/matrix-project.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/multiple-scms.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/promoted-builds.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/scm-api.hpi /usr/share/jenkins/ref/plugins/
 ADD http://updates.jenkins-ci.org/latest/simple-theme-plugin.hpi /usr/share/jenkins/ref/plugins/
+ADD http://updates.jenkins-ci.org/latest/ssh-credentials.hpi /usr/share/jenkins/ref/plugins/
 
 ADD https://cdnjs.cloudflare.com/ajax/libs/doony/1.6/css/doony.min.css /usr/share/jenkins/ref/userContent/
 ADD https://cdnjs.cloudflare.com/ajax/libs/doony/1.6/js/doony.min.js /usr/share/jenkins/ref/userContent/

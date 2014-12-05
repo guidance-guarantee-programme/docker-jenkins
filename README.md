@@ -2,10 +2,21 @@
 
 Provides a [Jenkins] LTS server configured with the following plugins:
 
+* [Credentials Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Credentials+Plugin)
 * [Doony](http://doony.org)
+* [Git Client Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Client+Plugin)
+* [Git Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
+* [GitHub API Plugin](https://wiki.jenkins-ci.org/display/JENKINS/GitHub+API+Plugin)
+* [GitHub Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Github+Plugin)
 * [Green Balls](https://wiki.jenkins-ci.org/display/JENKINS/Green+Balls)
 * [jQuery Plugin](https://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin)
+* [Mailer](https://wiki.jenkins-ci.org/display/JENKINS/Mailer)
+* [Matrix Project Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Matrix+Project+Plugin)
+* [Multiple SCMs Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Multiple+SCMs+Plugin)
+* [Promoted Builds Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Promoted+Builds+Plugin)
+* [SCM API Plugin](https://wiki.jenkins-ci.org/display/JENKINS/SCM+API+Plugin)
 * [Simple Theme Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin)
+* [SSH Credentials Plugin](https://wiki.jenkins-ci.org/display/JENKINS/SSH+Credentials+Plugin)
 
 
 ## Prerequisites
